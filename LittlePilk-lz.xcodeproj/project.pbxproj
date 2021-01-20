@@ -14,9 +14,12 @@
 		C4C8AD9925B6842600F71E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C8AD9825B6842600F71E4F /* Assets.xcassets */; };
 		C4C8AD9C25B6842600F71E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8AD9A25B6842600F71E4F /* LaunchScreen.storyboard */; };
 		C4C8ADB525B68F9100F71E4F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C4C8ADB425B68F9100F71E4F /* .gitignore */; };
+		C72F8CE004123221701E1BE8 /* Pods_LittlePilk_lz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB3FB008434B684C5AF5717 /* Pods_LittlePilk_lz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CB3FB008434B684C5AF5717 /* Pods_LittlePilk_lz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePilk_lz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5205C570B6A885B34B9D12AB /* Pods-LittlePilk-lz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePilk-lz.release.xcconfig"; path = "Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz.release.xcconfig"; sourceTree = "<group>"; };
 		C4C8AD8C25B6842300F71E4F /* LittlePilk-lz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePilk-lz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C8AD8F25B6842300F71E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4C8AD9125B6842300F71E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		C4C8AD9B25B6842600F71E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4C8AD9D25B6842600F71E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C8ADB425B68F9100F71E4F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FA5A7FC10C5C5481B8480CFB /* Pods-LittlePilk-lz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePilk-lz.debug.xcconfig"; path = "Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C72F8CE004123221701E1BE8 /* Pods_LittlePilk_lz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2681BCD4252F96AE7AE5E28B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA5A7FC10C5C5481B8480CFB /* Pods-LittlePilk-lz.debug.xcconfig */,
+				5205C570B6A885B34B9D12AB /* Pods-LittlePilk-lz.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		975A94A89D85C7DB9BDA59AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CB3FB008434B684C5AF5717 /* Pods_LittlePilk_lz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4C8AD8325B6842300F71E4F = {
 			isa = PBXGroup;
 			children = (
 				C4C8ADB425B68F9100F71E4F /* .gitignore */,
 				C4C8AD8E25B6842300F71E4F /* LittlePilk-lz */,
 				C4C8AD8D25B6842300F71E4F /* Products */,
+				2681BCD4252F96AE7AE5E28B /* Pods */,
+				975A94A89D85C7DB9BDA59AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4C8ADA025B6842600F71E4F /* Build configuration list for PBXNativeTarget "LittlePilk-lz" */;
 			buildPhases = (
+				9E0D7FEF5E5CEAB2FC8DFF14 /* [CP] Check Pods Manifest.lock */,
 				C4C8AD8825B6842300F71E4F /* Sources */,
 				C4C8AD8925B6842300F71E4F /* Frameworks */,
 				C4C8AD8A25B6842300F71E4F /* Resources */,
+				5089E597E189F03B0F98C3B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5089E597E189F03B0F98C3B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E0D7FEF5E5CEAB2FC8DFF14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LittlePilk-lz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4C8AD8825B6842300F71E4F /* Sources */ = {
@@ -287,6 +356,7 @@
 		};
 		C4C8ADA125B6842600F71E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5A7FC10C5C5481B8480CFB /* Pods-LittlePilk-lz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,12 +369,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zyyj.k12.module.exam.LittlePilk-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C4C8ADA225B6842600F71E4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5205C570B6A885B34B9D12AB /* Pods-LittlePilk-lz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,7 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zyyj.k12.module.exam.LittlePilk-lz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
