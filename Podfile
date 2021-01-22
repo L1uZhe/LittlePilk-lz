@@ -3,9 +3,12 @@
 
 target 'LittlePilk-lz' do
   # Comment the next line if you don't want to use dynamic frameworks
+  
   use_frameworks!
 
   # Pods for LittlePilk-lz
   pod 'XLPagerTabStrip', '~> 9.0'
+  pod 'CHTCollectionViewWaterfallLayout/Swift'
 
 end
+ 

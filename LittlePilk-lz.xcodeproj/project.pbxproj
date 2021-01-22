@@ -3,13 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C46346C625B80ABE00DD38DF /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346C525B80ABE00DD38DF /* HomeVC.swift */; };
+		C46346CD25B80EF200DD38DF /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346CC25B80EF200DD38DF /* FollowVC.swift */; };
+		C46346D025B80F1A00DD38DF /* DiscoveryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346CF25B80F1A00DD38DF /* DiscoveryVC.swift */; };
+		C46346D325B80F3B00DD38DF /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346D225B80F3B00DD38DF /* NearByVC.swift */; };
+		C46346D625B8104E00DD38DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346D525B8104E00DD38DF /* Constants.swift */; };
+		C46346E525B929A100DD38DF /* WaterfallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46346E425B929A100DD38DF /* WaterfallVC.swift */; };
+		C464A45325B9561C000DD941 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C464A45225B9561C000DD941 /* WaterfallCell.swift */; };
 		C4C8AD9025B6842300F71E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8AD8F25B6842300F71E4F /* AppDelegate.swift */; };
 		C4C8AD9225B6842300F71E4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8AD9125B6842300F71E4F /* SceneDelegate.swift */; };
-		C4C8AD9425B6842300F71E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C8AD9325B6842300F71E4F /* ViewController.swift */; };
 		C4C8AD9725B6842300F71E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8AD9525B6842300F71E4F /* Main.storyboard */; };
 		C4C8AD9925B6842600F71E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4C8AD9825B6842600F71E4F /* Assets.xcassets */; };
 		C4C8AD9C25B6842600F71E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C8AD9A25B6842600F71E4F /* LaunchScreen.storyboard */; };
@@ -20,10 +26,16 @@
 /* Begin PBXFileReference section */
 		4CB3FB008434B684C5AF5717 /* Pods_LittlePilk_lz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePilk_lz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5205C570B6A885B34B9D12AB /* Pods-LittlePilk-lz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePilk-lz.release.xcconfig"; path = "Target Support Files/Pods-LittlePilk-lz/Pods-LittlePilk-lz.release.xcconfig"; sourceTree = "<group>"; };
+		C46346C525B80ABE00DD38DF /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C46346CC25B80EF200DD38DF /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		C46346CF25B80F1A00DD38DF /* DiscoveryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVC.swift; sourceTree = "<group>"; };
+		C46346D225B80F3B00DD38DF /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
+		C46346D525B8104E00DD38DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C46346E425B929A100DD38DF /* WaterfallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallVC.swift; sourceTree = "<group>"; };
+		C464A45225B9561C000DD941 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
 		C4C8AD8C25B6842300F71E4F /* LittlePilk-lz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LittlePilk-lz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C8AD8F25B6842300F71E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4C8AD9125B6842300F71E4F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C4C8AD9325B6842300F71E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4C8AD9625B6842300F71E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4C8AD9825B6842600F71E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4C8AD9B25B6842600F71E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,7 +62,6 @@
 				FA5A7FC10C5C5481B8480CFB /* Pods-LittlePilk-lz.debug.xcconfig */,
 				5205C570B6A885B34B9D12AB /* Pods-LittlePilk-lz.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -60,6 +71,34 @@
 				4CB3FB008434B684C5AF5717 /* Pods_LittlePilk_lz.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46346D925B811A500DD38DF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C46346C525B80ABE00DD38DF /* HomeVC.swift */,
+				C46346CF25B80F1A00DD38DF /* DiscoveryVC.swift */,
+				C46346CC25B80EF200DD38DF /* FollowVC.swift */,
+				C46346D225B80F3B00DD38DF /* NearByVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C464A45525B96969000DD941 /* Waterfall */ = {
+			isa = PBXGroup;
+			children = (
+				C46346E425B929A100DD38DF /* WaterfallVC.swift */,
+				C464A45225B9561C000DD941 /* WaterfallCell.swift */,
+			);
+			path = Waterfall;
+			sourceTree = "<group>";
+		};
+		C464A45725B96974000DD941 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C46346D525B8104E00DD38DF /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		C4C8AD8325B6842300F71E4F = {
@@ -86,8 +125,10 @@
 			children = (
 				C4C8AD8F25B6842300F71E4F /* AppDelegate.swift */,
 				C4C8AD9125B6842300F71E4F /* SceneDelegate.swift */,
-				C4C8AD9325B6842300F71E4F /* ViewController.swift */,
 				C4C8AD9525B6842300F71E4F /* Main.storyboard */,
+				C464A45525B96969000DD941 /* Waterfall */,
+				C46346D925B811A500DD38DF /* Home */,
+				C464A45725B96974000DD941 /* Common */,
 				C4C8AD9825B6842600F71E4F /* Assets.xcassets */,
 				C4C8AD9A25B6842600F71E4F /* LaunchScreen.storyboard */,
 				C4C8AD9D25B6842600F71E4F /* Info.plist */,
@@ -210,9 +251,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4C8AD9425B6842300F71E4F /* ViewController.swift in Sources */,
+				C46346D025B80F1A00DD38DF /* DiscoveryVC.swift in Sources */,
+				C46346D325B80F3B00DD38DF /* NearByVC.swift in Sources */,
+				C46346C625B80ABE00DD38DF /* HomeVC.swift in Sources */,
+				C464A45325B9561C000DD941 /* WaterfallCell.swift in Sources */,
+				C46346CD25B80EF200DD38DF /* FollowVC.swift in Sources */,
+				C46346D625B8104E00DD38DF /* Constants.swift in Sources */,
 				C4C8AD9025B6842300F71E4F /* AppDelegate.swift in Sources */,
 				C4C8AD9225B6842300F71E4F /* SceneDelegate.swift in Sources */,
+				C46346E525B929A100DD38DF /* WaterfallVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FP4K9R9RX;
 				INFOPLIST_FILE = "LittlePilk-lz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -380,6 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7FP4K9R9RX;
 				INFOPLIST_FILE = "LittlePilk-lz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
